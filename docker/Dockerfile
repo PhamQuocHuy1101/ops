@@ -1,2 +1,2 @@
 FROM pytorch/pytorch
-RUN pip install -r https://raw.githubusercontent.com/PhamQuocHuy1101/ops/master/docker/requirements.txt
+RUN pip install -r https://raw.githubusercontent.com/PhamQuocHuy1101/ops/master/requirements.txt
