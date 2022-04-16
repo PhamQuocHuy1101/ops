@@ -1,3 +1,2 @@
 FROM pytorch/pytorch
-COPY requirements.txt /app/
-RUN pip install -r /app/requirements.txt
+RUN pip install -r https://raw.githubusercontent.com/PhamQuocHuy1101/ops/master/docker/requirements.txt
