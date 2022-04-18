@@ -1,5 +1,5 @@
 # build image
-docker build https://raw.githubusercontent.com/PhamQuocHuy1101/ops/master/docker/pytorch-ops-dockerfile
+docker build https://raw.githubusercontent.com/PhamQuocHuy1101/ops/master/docker/pytorch-ops-dockerfile -t phamquochuy1101/pytorch-ops:latest
 
 # push image to docker hub
 docker login
