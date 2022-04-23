@@ -2,7 +2,6 @@ datasets==2.0.0
 hydra-core==1.1.2
 matplotlib
 numpy
-omegaconf==2.1.2
 pandas
 scikit_learn==1.0.2
 seaborn==0.11.1
@@ -10,3 +9,4 @@ torchmetrics==0.7.3
 transformers==4.18.0
 wandb==0.12.14
 tqdm
+git+https://github.com/PhamQuocHuy1101/easy-config.git
