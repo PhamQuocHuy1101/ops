@@ -1,3 +1,4 @@
 FROM pytorch/pytorch
-RUN pip install -r https://raw.githubusercontent.com/PhamQuocHuy1101/ops/master/requirements.txt
 RUN apt-get update && apt-get install -y nmap vim
+RUN apt-get update && apt-get install -y git
+RUN pip install -r https://raw.githubusercontent.com/PhamQuocHuy1101/ops/master/requirements.txt
